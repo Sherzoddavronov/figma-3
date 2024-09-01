@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body,
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 1);
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 46px;
+    font-family: "Nunito", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav>div>a {
+    text-decoration: none;
+    margin-left: 26px;
+    color: rgba(112, 112, 112, 1);
+    font-size: 20px;
+    font-weight: 500;
+    transition: all .8s;
+
+}
+
+nav>div>a:hover {
+    color: rgba(60, 130, 244, 1);
+
+}
+
+nav>div>img {
+    width: 196px;
+    height: 56px;
+}
+
+.login {
+    border: none;
+    background: #00000000;
+    color: rgba(112, 112, 112, 1);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    transition: all .8s;
+}
+
+.SignUp {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(48, 110, 247, 1);
+    color: #fff;
+    font-size: 14px;
+    transition: all .8s;
+}
+
+.btn {
+    margin-left: 30em;
+}
+
+.SignUp:hover {
+    color: aqua;
+    background-color: #4CAF50;
+    filter: blur(1px);
+}
+
+.login:hover {
+    color: #fff;
+}
+
+
+.links {
+    margin-left: 110px;
+}
+
+.title {
+    color: #fff;
+}
+
+.liner {
+    background: linear-gradient(to right, rgba(254, 103, 131, 1), rgba(255, 191, 132, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.center>h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: -50px;
+}
+
+.center>p {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: -50px;
+}
+
+.title2 {
+    margin-top: 136px;
+    text-align: center;
+    color: #fff;
+}
+
+.title2>p {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.title2>button {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.start {
+    background: rgba(50, 108, 249, 1);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    border: none;
+    width: 180px;
+    height: 57px;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.demo {
+    background: rgba(50, 106, 249, 0);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    border: 1.4px solid rgba(112, 112, 112, 1);
+    width: 180px;
+    height: 57px;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.demo:hover {
+    background: #6600ff89;
+    border: none;
+    box-shadow: 0 0 30px 6px #000dff79;
+    color: #00fffb;
+}
+
+.start:hover {
+    background: #f200ffaa;
+    border: none;
+    box-shadow: 0 0 30px 6px #6200ffa4;
+    color: #00fffb;
+}
+
+.check>img {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.creator {
+    display: flex;
+    text-align: center;
+    color: #fff;
+}
+
+.card>h1 {
+    margin-bottom: -40px;
+}
+
+.title3 {
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+}
+
+.step {
+    text-align: center;
+    color: #fff;
+}
+
+.title4 {
+    margin-top: 162px;
+    color: rgba(61, 130, 242, 1);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.step>h1 {
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 112px;
+    text-align: center;
+    margin-top: -13px;
+}
+
+.step>p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-top: -10px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.stepbtn {
+    width: 213px;
+    height: 77px;
+    border-radius: 10px;
+    background: #00000000;
+    border: 1px solid gray;
+    color: #fff;
+    font-size: 17px;
+    color: gray;
+    margin-top: 30px;
+    transition: all .7s;
+}
+
+.stepbtn:hover {
+    background-color: bisque;
+    color: #000000;
+    box-shadow: 0 0 30px 10px burlywood;
+    border: 2px solid #000000;
+}
+
+.your-homepage {
+    margin-top: 180px;
+    color: #fff;
+    text-align: left;
+}
+
+.your-homepage>img {
+    position: relative;
+    right: -56em;
+    top: -35em;
+}
+
+.your-homepage>h1 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 112px;
+    text-align: left;
+
+}
+
+.your-homepage>h1>span {
+    color: rgba(60, 130, 244, 1);
+}
+
+.demo1 {
+    position: relative;
+    top: -24.888em;
+    right: 28.33em;
+}
+
+.step2 {
+    margin-top: -40em;
+}
+
+.boss {
+    margin-top: 170px;
+    display: flex;
+    color: #fff;
+}
+
+.cards-1>a {
+    color: #26ff00;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-size: 18px;
+}
+
+.cards-1>span {
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.cards-1 {
+    background: #111;
+    width: 454px;
+    height: 400px;
+    margin-left: 100px;
+
+}
+
+.cards-2 {
+    background: #111;
+    width: 454px;
+    height: 400px;
+    margin-left: 140px;
+}
+
+.all {
+    padding-top: -90px;
+    color: gray;
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.all1 {
+    color: #fff;
+}
+
+.rasim {
+    margin-top: 108px;
+    margin-left: 122px;
+}
+
+.step3 {
+    margin-top: 200px;
+}
+
+.step3>h1 {
+    font-size: 48px;
+}
+
+.back>img {
+    margin-left: 105px;
+}
+
+.btn3 {
+    margin-top: -399px;
+    margin-left: 140px;
+}
+
+.expert {
+    text-align: center;
+}
+
+.expert>h1 {
+    margin-top: 100px;
+    color: #fff;
+}
+
+.expert>img {
+    margin-left: -50px;
+}
+
+.bg-img {
+    background-image: url(img/image\ copy.png);
+    background-repeat: no-repeat;
+    background-size: 1360px;
+    height: 799px;
+}
+
+.footer-logo {
+    text-align: center;
+    color: #fff;
+}
+
+.srep {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.footer-logo>p {
+    margin-top: -5px;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+.pat-footer{
+    display: flex;
+    align-items: center;
+}
+.pat-footer>img{
+   width: 223px;
+}
+.pat-footer>div>a{
+    text-decoration: none;
+    margin-left: 26px;
+    color: rgba(112, 112, 112, 1);
+    font-size: 20px;
+    font-weight: 500;
+    transition: all .8s;
+}
+
+.pat-footer>div>a:hover {
+    color: rgba(60, 130, 244, 1);
+
+}
+.pat-footer>div{
+    margin-left: 700px;
+
+}
